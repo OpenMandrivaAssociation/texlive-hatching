@@ -1,3 +1,9 @@
+# revision 23818
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/hatching
+# catalog-date 2006-12-17 23:49:42 +0100
+# catalog-license pd
+# catalog-version 0.11
 Name:		texlive-hatching
 Version:	0.11
 Release:	1
@@ -40,6 +46,7 @@ included.
 %doc %{_texmfdistdir}/doc/metapost/hatching/README
 %doc %{_texmfdistdir}/doc/metapost/hatching/htchuse.mp
 %doc %{_texmfdistdir}/doc/metapost/hatching/htchuse_.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
