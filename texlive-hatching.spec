@@ -6,7 +6,7 @@
 # catalog-version 0.11
 Name:		texlive-hatching
 Version:	0.11
-Release:	8
+Release:	9
 Summary:	MetaPost macros for hatching interior of closed paths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/hatching
