@@ -3,7 +3,7 @@ Version:	23818
 Release:	2
 Summary:	MetaPost macros for hatching interior of closed paths
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/hatching
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/hatching
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hatching.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hatching.doc.r%{version}.tar.xz
